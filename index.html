@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mario Web Prototype</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <h1>Mario Web Prototype</h1>
+      <p class="hint">Управление: ← → или A/D, прыжок: Space/W/↑, перезапуск: R</p>
+      <canvas id="game" width="960" height="540" aria-label="Игровое поле"></canvas>
+      <div id="hud" class="hud"></div>
+    </main>
+
+    <script type="module" src="./src/game.js"></script>
+  </body>
+</html>
